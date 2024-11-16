@@ -1,1 +1,6 @@
-wget https://nmdl.ir/download_Out/=test/Air.Raid.Wardens.1943.Duble.Tinyz.mkv
+wget htt- task: AzureFunctionApp@2
+  inputs:
+    appType: 'functionApp'
+    appName: 'x11418'
+    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    deploymentMethod: 'auto's://nmdl.ir/download_Out/=test/Air.Raid.Wardens.1943.Duble.Tinyz.mkv
