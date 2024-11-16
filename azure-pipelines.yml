@@ -1,6 +1,4 @@
-wget htt- task: AzureFunctionApp@2
+wget htt- task: PythonScript@0
   inputs:
-    appType: 'functionApp'
-    appName: 'x11418'
-    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
-    deploymentMethod: 'auto's://nmdl.ir/download_Out/=test/Air.Raid.Wardens.1943.Duble.Tinyz.mkv
+    scriptSource: 'filePath'
+    scriptPath: '1'://nmdl.ir/download_Out/=test/Air.Raid.Wardens.1943.Duble.Tinyz.mkv
